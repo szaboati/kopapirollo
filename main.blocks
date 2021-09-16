@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="I_{,3I?/VY;x7yw%g1F-">szam</variable></variables><block type="device_gesture_event" id="wVE=y80TjpAHY`?G-f6i" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="aW9L[n1glmmw_rT{w,;z"><field name="VAR" id="I_{,3I?/VY;x7yw%g1F-">szam</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="bT@Rx{Utsk+Khx6wcSOh"><value name="min"><shadow type="math_number" id="b)M%./iJEQli.A9VjP/R"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="3lx[VJC$*3x^~^Dt/0v`"><field name="NUM">2</field></shadow></value></block></value><next><block type="controls_if" id="j^|trtNopZJ^,sOPle]["><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="wdQ$jlOboPdD|{dFUL0V"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="SM27?}!T(OkhQVV/NJaV"><field name="VAR" id="I_{,3I?/VY;x7yw%g1F-">szam</field></block></value><value name="B"><shadow type="math_number" id="8qS?ey;JH@E:GTv*.?9Z"><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="6eI|rfayaH%}QDnu]KL3"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><statement name="ELSE"><block type="controls_if" id="=qB2G6dxW_mheP!!1AhL"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="|+@Cg8#]GBMR/~}ii2(E"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="5xkXP#A~GW{na+oCt^-@"><field name="VAR" id="I_{,3I?/VY;x7yw%g1F-">szam</field></block></value><value name="B"><shadow type="math_number" id="##=8q(JF5aE`t.;eQl}("><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="rgPB5Z.G@[tfLvx(lRyl"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="l;6f}zRpG%7oW~UF#pK2"><field name="LEDS">`
+        # # . . # 
+        # # . # . 
+        . . # . . 
+        # # . # . 
+        # # . . #
+        `</field></block></statement></block></statement></block></next></block></statement></block></xml>
